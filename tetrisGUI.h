@@ -1,4 +1,16 @@
-#ifndef BOARD_H
-#define BOARD_H
+#ifndef _tetrisgui_h
+#define _tetrisgui_h
 
-#endif // BOARD_H
+#include <iostream>
+#include "gwindow.h"
+
+namespace tetrisGUI{
+
+	void initialize();
+	void shutdown();
+	void displayBlock(int x, int y);
+	void updateColor(int x, int y);
+
+}
+
+#endif
